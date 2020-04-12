@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 /*          START OF TOP SECTION.    */
 #top {
   background-color: #d0dbe2;
