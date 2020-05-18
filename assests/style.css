@@ -171,13 +171,56 @@ body{
 
 
 
+
+/*       START OF PROJECTS             */
+
+.card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 10 10 15px rgba(0,0,0,0.2);
+}
+
+.card > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card .card-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+
+
+/*         END OF PROJECTS             */
+
+
+
+
 /*    START OF PROGRAMMING LANGUAGES   */
 
-#work {
+#skills {
   height: 50vh;
 }
 
-#work h4{
+#skills h4{
   margin-top: 50px;
   color: #3e719b;
   font-family: 'Dosis', sans-serif;
@@ -193,7 +236,7 @@ body{
 }
 
 @media (max-width: 540px) {
-  #work{
+  #skills{
     height: 40vh;
   }
 
