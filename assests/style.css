@@ -173,6 +173,16 @@ body{
 
 
 /*       START OF PROJECTS             */
+#projects h4{
+  color: #3e719b;
+  font-family: 'Dosis', sans-serif;
+}
+
+.projects-wrapper{
+  margin-top: 40px;
+}
+
+
 
 .card {
   overflow: hidden;
@@ -187,9 +197,9 @@ body{
 }
 
 .card h2 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
   margin: 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 .card p {
