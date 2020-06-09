@@ -5,7 +5,7 @@ body{
 /*          START OF TOP SECTION.    */
 #top {
   background-color: #d0dbe2;
-  height: 80vh;
+  height: 75vh;
 }
 
 #mypic{
@@ -14,13 +14,25 @@ body{
   box-shadow: 1px 1px 1px rgba(39, 91, 135,0.3);
 }
 
+
+.navbar-moe {
+  justify-content: space-between;
+  background: #d0dbe2;
+  box-shadow: none;
+}
+
+.navbar-moe .navbar-collapse {
+  flex-grow: 0;
+}
+
 .navi {
   padding-top: 40px;
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
 }
-.nav-link {
+#navbarSupportedContent a{
   color: #275b87;
+  font-size: 18px;
 }
 
 .name-ar {
@@ -37,14 +49,22 @@ body{
   font-size: 60px;
 }
 
+.title-wrapper{
+  width: 100vw;
+  display: table;
+  min-height: 100px;
+  margin-top: -5px;
+  background-color: #d0dbe2;
+}
 .title{
-  margin-top: 20vh;
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
   color: #3e719b;
 }
 
-
+/*phones*/
 @media (max-width: 540px) {
 
   #mypic {
@@ -54,10 +74,10 @@ body{
     font-size: 13px;
   }
   .name-en {
-    font-size: 40px;
+    font-size: 39px;
   }
   .name-ar {
-    font-size: 40px;
+    font-size: 39px;
   }
   .name-en svg{
     width: 100px;
@@ -66,15 +86,35 @@ body{
     width: 100px;
   }
   .title {
-    font-size: 18px;
+    font-size: 25px;
   }
   .cloud1{
     text-align: right;
   }
 }
-@media (max-width: 768px) {
+
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+  .name-en {
+    font-size: 30px;
+  }
+  .name-ar {
+    font-size: 30px;
+  }
   .title{
-    margin-top: 10vh;
+    font-size: 20px;
+  }
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+  .name-en {
+    font-size: 55px;
+  }
+  .name-ar {
+    font-size: 55px;
   }
 }
 /*          END OF TOP SECTION         */
@@ -216,7 +256,7 @@ body{
 
 /*      START OF SOCIAL                 */
 #social {
-  height: 30vh;
+  height: 300px;
 }
 
 #social h4{
