@@ -189,6 +189,8 @@ body{
   background: white;
   box-shadow: 10 10 15px rgba(0,0,0,0.2);
   margin-bottom: 20px;
+  min-height: 320px;
+  position: relative;
 }
 
 .card > img {
@@ -215,10 +217,13 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  position: relative;
 }
 
 
+.card:hover{
+  top: -5px;
+  transition: top 1s linear;
+}
 
 /*         END OF PROJECTS             */
 
