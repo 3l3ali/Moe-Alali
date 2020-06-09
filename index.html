@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./node_modules/mdbootstrap/css/mdb.min.css">
   <link rel="stylesheet" href="./node_modules/mdbootstrap/css/style.scss">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/stylesheets/main.css">
   <link rel="icon" type="image/png" href="./assets/favi.png">
 </head>
 <body>
@@ -18,7 +18,7 @@
 
     <div class="navbar navbar-expand-sm navbar-light navbar-moe animated fadeInUp">
       <a class="navbar-brand" href="https://moealali.com/">
-        <img src="./assests/pic.jpg" id="mypic" alt="">
+        <img src="./assets/images/pic.jpg" id="mypic" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,10 @@
             <a href="#about"class="nav-link">about</a>
           </li>
           <li class="nav-item">
-            <a href="#work"class="nav-link">work</a>
+            <a href="#projects"class="nav-link">projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills"class="nav-link">skills</a>
           </li>
           <li class="nav-item">
             <a href="#contact"class="nav-link">contact</a>
@@ -41,29 +44,6 @@
     </div>
 
     <div class="container">
-
-     <!--  <div class="navi animated fadeInUp">
-
-        <div class="row">
-          <div class="col-3 col-md-8" >
-            <img src="./assets/images/pic.jpg" id="mypic" alt="">
-          </div>
-          <div class="col-2 col-md-1">
-            <a href="#about"class="nav-link">about</a>
-          </div>
-          <div class="col-2 col-md-1">
-            <a href="#projects"class="nav-link">projects</a>
-          </div>
-          <div class="col-2 col-md-1">
-            <a href="#skills"class="nav-link">skills</a>
-          </div>
-          <div class="col-2 col-md-1">
-            <a href="#contact"class="nav-link">contact</a>
-          </div>
-        </div>
-
-      </div> --><!-- end of nav -->
-
 
       <div class="name-en">
         <div class="row">
@@ -136,15 +116,12 @@
 
 
   </section> <!-- end of top -->
-    <div class="title-wrapper text-center">
-      <div class="title ">
-       <!--  <div class="row">
-          <div class="col-6 offset-3"> -->
-            <p class="animated fadeInUp">a fullstack developer.</p>
-          <!-- </div>
-        </div> -->
-      </div>
+
+  <div class="title-wrapper text-center">
+    <div class="title ">
+          <p class="animated fadeInUp">a fullstack developer.</p>
     </div>
+  </div>
 
   <section id="about">
     <div class="about-wrapper text-center">
@@ -256,38 +233,40 @@
         <div class="row">
 
           <div class="col-12 col-md-4">
-            <div class="card wow fadeInUp">
-              <img src="./assets/images/Highway.png" />
+              <div class="card wow fadeInUp">
+                <img src="./assets/images/Highway.png" />
+                <div class="card-infos">
+                  <div>
+                    <h2>Highway Restaurant</h2>
+                    <p>website for Highway Restaurants chain in Jordan, with features like placing orders and deliverys. RoR, JS, HTML, CSS, ActiveRecord, Bootstrap, Google APIs.</p>
+                  </div>
+                  <h2><a href="https://www.highway-rest.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a></h2>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card wow fadeInUp" data-wow-delay="0.3s">
+              <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
               <div class="card-infos">
                 <div>
-                  <h2>Highway Restaurant</h2>
-                  <p>website for Highway Restaurants chain in Jordan, with features like placing orders and deliverys. RoR, JS, HTML, CSS, ActiveRecord, Bootstrap, Google APIs.</p>
+                  <h2>Skinet</h2>
+                  <p>a concept e-commerce store for selling skiing supplies. Asp.Net Core Api, Angular, TS, HTML, CSS, Bootstrap, Stripe for payment processing.</p>
                 </div>
-                <h2><a href="https://www.highway-rest.com/"><i class="fas fa-external-link-alt"></i></a></h2>
+                <h2><a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a></h2>
               </div>
             </div>
           </div>
+
           <div class="col-12 col-md-4">
-            <div class="card wow fadeInUp" data-wow-delay="0.3s">
+            <div class="card wow fadeInUp" data-wow-delay="0.6s">
               <img src="./assets/images/MissingOut.png" />
               <div class="card-infos">
                 <div>
                   <h2>Missing Out</h2>
                   <p>hidden gems, tour guides and a social media platform talk about your favorite places and upcoming visits. RoR, JS, HTML, CSS, Bootstrap, Google APIs.</p>
                 </div>
-                <h2><a href="https://missing-out.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4">
-            <div class="card wow fadeInUp" data-wow-delay="0.6s">
-              <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-              <div class="card-infos">
-                <div>
-                  <h2>Skinet</h2>
-                  <p>Short description here!</p>
-                </div>
-                <h2><a href=""><i class="fas fa-external-link-alt"></i></a></h2>
+                <h2><a href="https://missing-out.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a></h2>
               </div>
             </div>
           </div>

@@ -1,0 +1,30 @@
+/*    START OF PROGRAMMING LANGUAGES   */
+
+#skills {
+  padding-top: 90px;
+  /*height: 50vh;*/
+}
+
+#skills h4{
+  margin-top: 50px;
+  color: #3e719b;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 50px;
+}
+
+.programming > svg{
+  width: 50px;
+}
+
+.languages-row {
+  padding-bottom: 50px;
+}
+
+/*@media (max-width: 540px) {
+  #skills{
+    height: 40vh;
+  }
+
+}*/
+
+/*    END  OF PROGRAMMING LANGUAGES   */

@@ -1,0 +1,35 @@
+/*         START OF CONTACT           */
+#contact{
+  margin-top: 50px;
+  background-color: #d0dbe2;
+}
+
+.form-wrapper{
+  background-color: white;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 70px;
+  box-shadow: 2px 2px 2px rgba(39, 91, 135,0.3);
+  border-radius: 20px;
+}
+.contact-title{
+  color: #3e719b;
+}
+
+.btn-contact-send{
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: 2px solid #3e719b;
+  color: white;
+  background-color: #3e719b;
+  border-radius: 20px;
+}
+
+@media (max-width: 540px) {
+  .form-wrapper{
+    padding: 35px;
+  }
+
+}
+/*        END OF CONTACT               */
