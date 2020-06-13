@@ -12,19 +12,35 @@
   padding-bottom: 50px;
 }
 
-.programming > svg{
-  width: 50px;
-}
-
 .languages-row {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
-/*@media (max-width: 540px) {
-  #skills{
-    height: 40vh;
+.skill-svg {
+  width: 70px;
+  padding-top: 50px;
+}
+
+/* Small Phones */
+@media (max-width: 350px) {
+  .skill-svg {
+    width: 45px;
   }
 
-}*/
+}
+/* Phones */
+@media (max-width: 540px) {
+  .skill-svg {
+    width: 50px;
+  }
 
+}
+/* IPad */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+  .skill-svg{
+    width: 40px;
+  }
+}
 /*    END  OF PROGRAMMING LANGUAGES   */

@@ -3,7 +3,6 @@
 #about{
   padding-top: 50px;
   overflow-x: hidden;
-  overflow-y: hidden;
   max-width: 100%;
 }
 #about::-webkit-scrollbar {
