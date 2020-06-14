@@ -314,3 +314,24 @@ and (max-device-width : 1024px){
 
 }
 /*        END OF CONTACT               */
+
+@media (max-width: 540px) {
+  #submit-fail{
+    margin-top: 20%;
+  }
+  #submit-success{
+    margin-top: 20%;
+  }
+}
+.submit-response > h2{
+  margin-top: 80px;
+}
+.submit-response > p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.submit-response > svg{
+  height: 100px;
+  margin-bottom: 80px;
+}
+
