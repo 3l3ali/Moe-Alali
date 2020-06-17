@@ -374,7 +374,6 @@
         </div>
       </div>
     </div>
-
   </section>
 
   <section id="contact">
@@ -385,16 +384,18 @@
           <div class="form-wrapper">
             <form id="contact-form">
               <p class="h4 mb-4 text-center contact-title">contact me</p>
+              <div class="text-center"><span id="errors" style="color: red; font-weight: bold;" ></span></div>
+
               <!-- Name -->
-              <input type="text" name="name" class="form-control mb-4" placeholder="jeff bezos">
+              <input type="text" name="name" class="form-control mb-4" placeholder="jeff bezos" required>
 
               <!-- Email -->
-              <input type="email" name="replyto" class="form-control mb-4" placeholder="jeff@amazon.com">
+              <input type="email" name="replyto" class="form-control mb-4" placeholder="jeff@amazon.com" required>
 
 
               <!-- Message -->
               <div class="form-group">
-                  <textarea class="form-control rounded-0" name="message" rows="3" placeholder="want a job at amazon ? shoot me an email !"></textarea>
+                  <textarea class="form-control rounded-0" name="message" rows="3" placeholder="want a job at amazon ? shoot me an email !" required></textarea>
               </div>
 
               <!-- Send button -->
