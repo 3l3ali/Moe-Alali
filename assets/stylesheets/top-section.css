@@ -1,0 +1,116 @@
+/*          START OF TOP SECTION.    */
+#top {
+  background-color: #d0dbe2;
+  height: 75vh;
+}
+
+#mypic{
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgba(39, 91, 135,0.3);
+}
+
+
+.navbar-moe {
+  justify-content: space-between;
+  background: #d0dbe2;
+  box-shadow: none;
+}
+
+.navbar-moe .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navi {
+  padding-top: 40px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+#navbarSupportedContent a{
+  color: #275b87;
+  font-size: 18px;
+}
+
+.name-ar {
+  /*color: #3e719b;*/
+  color: #275b87;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 60px;
+}
+
+.name-en {
+  margin-top: 15vh;
+  color: #275b87;
+  font-family: 'Damion', cursive;
+  font-size: 60px;
+}
+
+.title-wrapper{
+  width: 100vw;
+  display: table;
+  min-height: 100px;
+  margin-top: -5px;
+  background-color: #d0dbe2;
+}
+.title{
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #3e719b;
+}
+
+/*phones*/
+@media (max-width: 540px) {
+
+  #mypic {
+    width: 50px;
+  }
+  .navi a{
+    font-size: 13px;
+  }
+  .name-en {
+    font-size: 39px;
+  }
+  .name-ar {
+    font-size: 39px;
+  }
+  .name-en svg{
+    width: 100px;
+  }
+  .name-ar svg{
+    width: 100px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .cloud1{
+    text-align: right;
+  }
+}
+
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+  .name-en {
+    font-size: 30px;
+  }
+  .name-ar {
+    font-size: 30px;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+  .name-en {
+    font-size: 55px;
+  }
+  .name-ar {
+    font-size: 55px;
+  }
+}
+/*          END OF TOP SECTION         */
