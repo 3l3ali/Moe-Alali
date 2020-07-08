@@ -1,0 +1,20 @@
+/*      START OF SOCIAL                 */
+#social {
+  height: 300px;
+  padding-top: 90px;
+}
+
+#social h4{
+  color: #3e719b;
+  font-family: 'Dosis', sans-serif;
+}
+
+#social p{
+  margin-top: 40px;
+}
+
+#social p a{
+  color: #3e719b;
+}
+
+/*      END OF SOCIAL                 */

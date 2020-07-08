@@ -1,0 +1,46 @@
+/*    START OF PROGRAMMING LANGUAGES   */
+
+#skills {
+  padding-top: 90px;
+  /*height: 50vh;*/
+}
+
+#skills h4{
+  margin-top: 50px;
+  color: #3e719b;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 50px;
+}
+
+.languages-row {
+  padding-bottom: 20px;
+}
+
+.skill-svg {
+  width: 70px;
+  padding-top: 50px;
+}
+
+/* Small Phones */
+@media (max-width: 350px) {
+  .skill-svg {
+    width: 45px;
+  }
+
+}
+/* Phones */
+@media (max-width: 540px) {
+  .skill-svg {
+    width: 50px;
+  }
+
+}
+/* IPad */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+  .skill-svg{
+    width: 40px;
+  }
+}
+/*    END  OF PROGRAMMING LANGUAGES   */
