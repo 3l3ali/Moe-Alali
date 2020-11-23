@@ -2,9 +2,10 @@
 Hi my name is Moe and I'm a Fullstack software developer and this is my personal website.
 
 ## 🔥 Skills
+- Ruby
+- Ruby on Rails
 - C#
 - Asp.net Core MVC
-- Ruby on Rails
 - JavaScipt
 - TypeScript
 - Angular 
