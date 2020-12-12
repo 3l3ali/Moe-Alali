@@ -1,23 +1,21 @@
 /*       START OF PROJECTS             */
-#projects{
+#projects {
   padding-top: 90px;
 }
 
-#projects h4{
+#projects h4 {
   color: #3e719b;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
-.projects-wrapper{
+.projects-wrapper {
   margin-top: 40px;
 }
-
-
 
 .card {
   overflow: hidden;
   background: white;
-  box-shadow: 10 10 15px rgba(0,0,0,0.2);
+  box-shadow: 10 10 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   min-height: 400px;
 }
@@ -31,38 +29,39 @@
 .card h2 {
   font-size: 18px;
   margin: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .card p {
   font-size: 12px;
-  opacity: .7;
+  opacity: 0.7;
   margin: 10px 0 0 0;
 }
-
 
 .card .card-infos {
   padding: 16px 16px 7px 16px;
   min-height: 90px;
 }
 
-
-.card:hover{
+.card:hover {
   top: -5px;
   transition: top 1s linear;
 }
 
-.project-links{
+.project-links {
   padding: 10px 5px;
   border-top: 1px solid #e8e8e8;
 }
+.project-links a {
+  color: #275b87;
+}
 
-.project-tech{
+.project-tech {
   padding: 10px 5px;
 }
 
-.tech-used{
-  font-family: 'Dosis', sans-serif;
+.tech-used {
+  font-family: "Dosis", sans-serif;
   color: #3e719b;
   font-size: 12px;
   padding: 3px 7px;
@@ -72,7 +71,7 @@
 }
 
 @media (max-width: 540px) {
-  .card  {
+  .card {
     margin-top: 20px;
   }
 }
