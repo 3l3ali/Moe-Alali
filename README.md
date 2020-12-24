@@ -1,11 +1,9 @@
 ## 😎 About
-Hi my name is Moe and I'm a Fullstack software developer and this is my personal website.
+Hi my name is Moe and I'm a System Development Engineer and this is my personal website.
 
 ## 🔥 Skills
 - Ruby
 - Ruby on Rails
-- C#
-- Asp.net Core MVC
 - JavaScipt
 - TypeScript
 - Angular 
@@ -16,6 +14,7 @@ Hi my name is Moe and I'm a Fullstack software developer and this is my personal
 - Linux / CLI
 - Agile Development
 - Bootstrap / Responsive Design
+- AWS
 - Heroku 
 - JQuery 
 - APIs / REST
