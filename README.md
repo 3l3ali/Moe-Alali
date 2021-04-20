@@ -1,23 +1,27 @@
 ## 😎 About
+
 Hi my name is Moe and I'm a System Development Engineer and this is my personal website.
 
 ## 🔥 Skills
-- Ruby
-- Ruby on Rails
+
 - JavaScipt
 - TypeScript
-- Angular 
-- HTML 
-- CSS / SCSS 
-- SQL / Postgre / MySQL
-- Git 
+- React
+- AWS
+- Ruby
+- Ruby on Rails
+- SQL / NoSQL
+- HTML
+- CSS / SCSS
+- Bootstrap / Responsive Design
+- APIs / REST
+- JQuery
+- Angular
+- Git
 - Linux / CLI
 - Agile Development
-- Bootstrap / Responsive Design
-- AWS
-- Heroku 
-- JQuery 
-- APIs / REST
+- Heroku
 
-## 👇🏻 link 
+## 👇🏻 link
+
 [www.MoeAlali.com](https://moealali.com/)
