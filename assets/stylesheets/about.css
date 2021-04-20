@@ -1,6 +1,6 @@
 /*          START OF ABOUT            */
 
-#about{
+#about {
   padding-top: 50px;
   overflow-x: hidden;
   max-width: 100%;
@@ -12,16 +12,16 @@
   -ms-overflow-style: none;
 }
 
-.about-wrapper{
+.about-wrapper {
   margin-top: 80px;
 }
 
-.about-wrapper  h4 {
+.about-wrapper h4 {
   color: #3e719b;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
-.about-wrapper p{
+.about-wrapper p {
   margin-top: 20px;
 }
 
@@ -30,15 +30,13 @@
   padding-bottom: 90px;
 }*/
 
-.divider
-{
+.divider {
   position: relative;
   margin-top: 90px;
   height: 1px;
 }
 
-.div-transparent:before
-{
+.div-transparent:before {
   content: "";
   position: absolute;
   top: 0;
@@ -46,11 +44,15 @@
   right: 25%;
   width: 50%;
   height: 1px;
-  background-image: linear-gradient(to right, transparent, rgb(200,200,200), transparent);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(200, 200, 200),
+    transparent
+  );
 }
 
-.div-arrow-down:after
-{
+.div-arrow-down:after {
   content: "";
   position: absolute;
   z-index: 1;
@@ -60,17 +62,16 @@
   height: 14px;
   transform: rotate(45deg);
   background-color: white;
-  border-bottom: 1px solid rgb(48,49,51);
-  border-right: 1px solid rgb(48,49,51);
+  border-bottom: 1px solid rgb(48, 49, 51);
+  border-right: 1px solid rgb(48, 49, 51);
 }
 
-
-#education{
+#education {
   padding-top: 90px;
   margin-top: 40px;
 }
 
-#about svg{
+#about img {
   width: 200px;
   height: 200px;
 }
@@ -78,28 +79,27 @@
 .phase-wrapper {
   margin-top: 50px;
 }
-.phase-wrapper p{
+.phase-wrapper p {
   padding-top: 20px;
 }
 
-
 @media (max-width: 540px) {
-  #about svg{
+  #about svg {
     width: 140px;
     height: 150px;
   }
-  .phase-wrapper p,h6{
+  .phase-wrapper p,
+  h6 {
     font-size: 14px;
   }
 }
 
-.details{
+.details {
   min-height: 200px;
   display: table;
 }
-.details div{
+.details div {
   display: table-cell;
   vertical-align: middle;
 }
 /*          END  OF ABOUT            */
-

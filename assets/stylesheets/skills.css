@@ -5,10 +5,10 @@
   /*height: 50vh;*/
 }
 
-#skills h4{
+#skills h4 {
   margin-top: 50px;
   color: #3e719b;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   padding-bottom: 50px;
 }
 
@@ -26,20 +26,16 @@
   .skill-svg {
     width: 45px;
   }
-
 }
 /* Phones */
 @media (max-width: 540px) {
   .skill-svg {
     width: 50px;
   }
-
 }
 /* IPad */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px){
-  .skill-svg{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .skill-svg {
     width: 40px;
   }
 }
